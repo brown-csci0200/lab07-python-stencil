@@ -43,3 +43,4 @@ class Visit:
 
     NOTE: these should be global methods.
 """
+pass
