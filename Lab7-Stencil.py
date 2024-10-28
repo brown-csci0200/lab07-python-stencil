@@ -7,21 +7,19 @@ BloodTypes = ["O", "A", "B", "AB"]
     TODO: IMPLEMENT THE HEALTHRECORD CLASS:
 
     IN THE HEALTHRECORD CLASS:
-    TODO: health_record_clumsy method using for loops
-    TODO: health_record_filter method using filter and lambda
-    TODO: health_record_comp method using list comprehensions
+    TODO: above_temp_for method using for loops
+    TODO: above_temp_filter method using filter and lambda
+    TODO: above_temp_comp method using list comprehensions
 """
 
-
+# TODO: Create your two dataclasses OUTSIDE of your Visits class.
 class Visit:
     def __init__(self, temp, weight, date, labs):
         self.temp = temp
         self.weight = weight
         self.date = date
         self.labs = labs
-    
-    #TODO: Create your two dataclasses INSIDE of your Visits class.
-    
+        
     def add_labs(self, report):
         """
             add_labs adds a labreport to the list that records which labs were
@@ -43,4 +41,3 @@ class Visit:
 
     NOTE: these should be global methods.
 """
-pass
